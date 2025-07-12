@@ -1,288 +1,383 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T12:00:00.000Z" agent="Claude Code" version="24.7.14" etag="quantum-arch-v1" type="device">
-  <diagram name="Quantum Architecture" id="quantum-arch">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-01-15T17:00:00.000Z" agent="Claude Code" version="24.7.14" etag="aws-final-jp-v1" type="device">
+  <diagram name="AWS量子インスパイア アーキテクチャ" id="aws-quantum-arch">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         
         <!-- Background -->
-        <mxCell id="background" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0a0a23;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry width="1600" height="1200" as="geometry"/>
+        <mxCell id="background" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry width="1800" height="1200" as="geometry"/>
         </mxCell>
         
         <!-- Title -->
-        <mxCell id="title" value="🌌 Quantum-Inspired Serverless Architecture" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fillColor=#1a1a2e;strokeColor=#4a5568;rounded=1;shadow=1;spacing=10;" vertex="1" parent="1">
-          <mxGeometry x="200" y="20" width="700" height="60" as="geometry"/>
+        <mxCell id="title" value="量子インスパイア サーバーレスアーキテクチャ on AWS" style="text;fontSize=24;fontStyle=1;fontColor=#232F3E;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="700" height="40" as="geometry"/>
         </mxCell>
         
         <!-- Subtitle -->
-        <mxCell id="subtitle" value="Leveraging Quantum Physics Principles for Distributed Systems Optimization" style="text;fontSize=14;fontStyle=2;fontColor=#a0aec0;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="250" y="85" width="600" height="25" as="geometry"/>
+        <mxCell id="subtitle" value="Multi-Armed Bandit最適化による商品レコメンデーションシステム" style="text;fontSize=14;fontStyle=0;fontColor=#5A6C7D;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="55" width="700" height="25" as="geometry"/>
         </mxCell>
         
-        <!-- Layer 1: Edge Layer -->
-        <mxCell id="edge-layer-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f3460;strokeColor=#16213e;opacity=80;" vertex="1" parent="1">
-          <mxGeometry x="50" y="130" width="1100" height="100" as="geometry"/>
+        <!-- System Overview -->
+        <mxCell id="overview" value="システム概要: 量子物理学の原理を応用した適応型サーバーレスシステム" style="text;fontSize=12;fontStyle=2;fontColor=#879196;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="85" width="700" height="20" as="geometry"/>
         </mxCell>
         
-        <mxCell id="edge-layer-title" value="🚪 Edge Layer - Quantum Gates" style="text;fontSize=18;fontStyle=1;fontColor=#ffffff;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="70" y="140" width="300" height="30" as="geometry"/>
+        <!-- Internet/Users -->
+        <mxCell id="internet" value="Internet" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4AB055;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="78" height="78" as="geometry"/>
+        </mxCell>
+        
+        <!-- AWS Cloud Border -->
+        <mxCell id="aws-cloud" value="AWS Cloud" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud;strokeColor=#AAB7B8;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="110" width="1560" height="900" as="geometry"/>
+        </mxCell>
+        
+        <!-- VPC -->
+        <mxCell id="vpc" value="VPC - 量子サーバーレス基盤" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="150" width="1280" height="750" as="geometry"/>
+        </mxCell>
+        
+        <!-- Security Group -->
+        <mxCell id="security-group" value="Security Group - 量子ゲートセキュリティ" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=10;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;strokeColor=#FF6B6B;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#FF6B6B;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="200" width="140" height="240" as="geometry"/>
+        </mxCell>
+        
+        <!-- Availability Zone 1 -->
+        <mxCell id="az1" value="Availability Zone 1a - 冗長性確保" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#147EBA;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="190" width="500" height="570" as="geometry"/>
+        </mxCell>
+        
+        <!-- Availability Zone 2 -->
+        <mxCell id="az2" value="Availability Zone 1c - 冗長性確保" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#147EBA;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="190" width="500" height="570" as="geometry"/>
         </mxCell>
         
         <!-- CloudFront -->
-        <mxCell id="cloudfront" value="☁️ CloudFront&#xa;Global Edge Distribution&#xa;Quantum State Preparation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="170" width="140" height="50" as="geometry"/>
+        <mxCell id="cloudfront" value="CloudFront&#xa;エッジキャッシュ配信" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cloudfront;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="78" height="78" as="geometry"/>
+        </mxCell>
+        
+        <!-- Route 53 -->
+        <mxCell id="route53" value="Route 53&#xa;DNSルーティング" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.route_53;" vertex="1" parent="1">
+          <mxGeometry x="300" y="350" width="78" height="78" as="geometry"/>
         </mxCell>
         
         <!-- API Gateway -->
-        <mxCell id="api-gateway" value="🚪 API Gateway&#xa;Quantum Gate Router&#xa;Probabilistic Distribution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="170" width="160" height="50" as="geometry"/>
+        <mxCell id="api-gateway" value="API Gateway&#xa;量子ゲートルーター" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#FF9900;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <!-- Router Lambda -->
-        <mxCell id="router-lambda" value="🎯 Router Lambda&#xa;Multi-Armed Bandit&#xa;Thompson Sampling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="170" width="160" height="50" as="geometry"/>
+        <!-- Lambda Authorizer -->
+        <mxCell id="lambda-auth" value="Lambda&#xa;認証処理" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#FF9900;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <!-- Metrics Collector -->
-        <mxCell id="metrics-collector" value="📊 Metrics Collector&#xa;Real-time Performance&#xa;Adaptive Weighting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="170" width="160" height="50" as="geometry"/>
-        </mxCell>
-        
-        <!-- Layer 2: Superposition Layer -->
-        <mxCell id="superposition-layer-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#16537e;strokeColor=#1c6ea4;opacity=80;" vertex="1" parent="1">
-          <mxGeometry x="50" y="270" width="1100" height="220" as="geometry"/>
-        </mxCell>
-        
-        <mxCell id="superposition-layer-title" value="⚛️ Superposition Layer - Parallel Execution Engine" style="text;fontSize=18;fontStyle=1;fontColor=#ffffff;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="70" y="280" width="400" height="30" as="geometry"/>
+        <!-- WAF -->
+        <mxCell id="waf" value="WAF&#xa;Webセキュリティ" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#FF6B6B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.waf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="230" width="78" height="78" as="geometry"/>
         </mxCell>
         
         <!-- Step Functions -->
-        <mxCell id="step-functions" value="🔀 Step Functions&#xa;Superposition Engine&#xa;Quantum Workflow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="320" width="140" height="60" as="geometry"/>
+        <mxCell id="step-functions" value="Step Functions&#xa;重ね合わせエンジン" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#FF9900;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.step_functions;" vertex="1" parent="1">
+          <mxGeometry x="820" y="230" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <!-- Coordinator -->
-        <mxCell id="coordinator" value="🎼 Coordinator&#xa;Quantum Measurement&#xa;Result Collapse" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="400" width="140" height="60" as="geometry"/>
+        <!-- Lambda Functions Row 1 -->
+        <mxCell id="lambda-collab" value="Lambda&#xa;協調フィルタリング" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#FF9900;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" vertex="1" parent="1">
+          <mxGeometry x="820" y="350" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <!-- Hexagonal Lambda Cluster Background -->
-        <mxCell id="lambda-cluster-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e3a8a;strokeColor=#3b82f6;opacity=60;" vertex="1" parent="1">
-          <mxGeometry x="300" y="310" width="600" height="160" as="geometry"/>
+        <mxCell id="lambda-content" value="Lambda&#xa;コンテンツベース" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#FF9900;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" vertex="1" parent="1">
+          <mxGeometry x="980" y="350" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <mxCell id="lambda-cluster-title" value="🔷 Hexagonal Lambda Constellation" style="text;fontSize=14;fontStyle=1;fontColor=#ffffff;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="320" width="250" height="25" as="geometry"/>
+        <mxCell id="lambda-ml" value="Lambda&#xa;ハイブリッドML" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#FF9900;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="350" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <!-- Lambda Functions in Hexagonal Layout -->
-        <mxCell id="lambda1" value="🟡&#xa;Collaborative&#xa;Filtering" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;fontSize=10;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="350" width="80" height="50" as="geometry"/>
+        <!-- Lambda Functions Row 2 -->
+        <mxCell id="lambda-hedged" value="Lambda&#xa;Hedgedリクエスト" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#FF9900;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" vertex="1" parent="1">
+          <mxGeometry x="920" y="470" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <mxCell id="lambda2" value="🟢&#xa;Content-Based&#xa;Filtering" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=10;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="350" width="80" height="50" as="geometry"/>
-        </mxCell>
-        
-        <mxCell id="lambda3" value="🔵&#xa;Hybrid ML&#xa;Algorithm" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontSize=10;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="350" width="80" height="50" as="geometry"/>
-        </mxCell>
-        
-        <mxCell id="lambda4" value="🟠&#xa;Hedged Request&#xa;Backup" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#fed7aa;strokeColor=#ea580c;fontSize=10;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="405" y="410" width="80" height="50" as="geometry"/>
-        </mxCell>
-        
-        <mxCell id="lambda5" value="🟣&#xa;Speculative&#xa;Execution" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#e9d5ff;strokeColor=#7c3aed;fontSize=10;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="515" y="410" width="80" height="50" as="geometry"/>
-        </mxCell>
-        
-        <!-- DynamoDB Results -->
-        <mxCell id="results-db" value="🗃️ DynamoDB&#xa;Superposition Results&#xa;Race Conditions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="360" width="130" height="60" as="geometry"/>
-        </mxCell>
-        
-        <!-- Layer 3: Entanglement Layer -->
-        <mxCell id="entanglement-layer-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4a148c;strokeColor=#7b1fa2;opacity=80;" vertex="1" parent="1">
-          <mxGeometry x="50" y="530" width="1100" height="140" as="geometry"/>
-        </mxCell>
-        
-        <mxCell id="entanglement-layer-title" value="🔗 Entanglement Layer - Event Correlation System" style="text;fontSize=18;fontStyle=1;fontColor=#ffffff;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="70" y="540" width="450" height="30" as="geometry"/>
+        <mxCell id="lambda-coordinator" value="Lambda&#xa;コーディネーター" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#FF9900;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="470" width="78" height="78" as="geometry"/>
         </mxCell>
         
         <!-- EventBridge -->
-        <mxCell id="event-bridge" value="🌐 EventBridge&#xa;Quantum Entanglement Bus&#xa;Non-local Correlations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="570" width="160" height="70" as="geometry"/>
+        <mxCell id="eventbridge" value="EventBridge&#xa;もつれバス" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#F13C39;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.eventbridge;" vertex="1" parent="1">
+          <mxGeometry x="300" y="470" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <!-- Correlation Database -->
-        <mxCell id="correlation-db" value="🗃️ DynamoDB&#xa;Correlation State&#xa;Entanglement History" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="570" width="160" height="70" as="geometry"/>
+        <!-- Lambda Processor -->
+        <mxCell id="lambda-processor" value="Lambda&#xa;もつれプロセッサー" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#FF9900;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" vertex="1" parent="1">
+          <mxGeometry x="490" y="470" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <!-- Entanglement Processor -->
-        <mxCell id="entanglement-processor" value="⚛️ Entanglement&#xa;Processor Lambda&#xa;State Synchronization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="570" width="160" height="70" as="geometry"/>
+        <!-- DynamoDB Tables -->
+        <mxCell id="dynamodb-products" value="DynamoDB&#xa;商品データ" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F48CC;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+          <mxGeometry x="300" y="610" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <!-- Chaos Engineering -->
-        <mxCell id="chaos-engineering" value="🌪️ Chaos Engineering&#xa;Quantum Uncertainty&#xa;Resilience Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fecaca;strokeColor=#dc2626;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="570" width="160" height="70" as="geometry"/>
+        <mxCell id="dynamodb-users" value="DynamoDB&#xa;ユーザー設定" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F48CC;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+          <mxGeometry x="530" y="630" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <!-- Layer 4: Measurement Layer -->
-        <mxCell id="measurement-layer-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1b5e20;strokeColor=#2e7d32;opacity=80;" vertex="1" parent="1">
-          <mxGeometry x="50" y="710" width="1100" height="160" as="geometry"/>
+        <mxCell id="dynamodb-recommendations" value="DynamoDB&#xa;レコメンド結果" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F48CC;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+          <mxGeometry x="720" y="630" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <mxCell id="measurement-layer-title" value="📏 Measurement Layer - Data Storage and Analytics" style="text;fontSize=18;fontStyle=1;fontColor=#ffffff;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="70" y="720" width="450" height="30" as="geometry"/>
+        <mxCell id="dynamodb-correlations" value="DynamoDB&#xa;相関データ" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F48CC;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+          <mxGeometry x="910" y="630" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <!-- Data Storage -->
-        <mxCell id="products-db" value="📦 Products&#xa;Database&#xa;Product Catalog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="760" width="120" height="60" as="geometry"/>
+        <!-- CloudWatch -->
+        <mxCell id="cloudwatch" value="CloudWatch&#xa;量子ダッシュボード" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#759C3E;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cloudwatch_2;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="630" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <mxCell id="user-preferences-db" value="👤 User Preferences&#xa;Database&#xa;Behavioral Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="760" width="120" height="60" as="geometry"/>
+        <!-- X-Ray -->
+        <mxCell id="xray" value="X-Ray&#xa;分散トレーシング" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#759C3E;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.xray;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="630" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <mxCell id="recommendations-db" value="🎯 Recommendations&#xa;Database&#xa;ML Inference Results" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="760" width="130" height="60" as="geometry"/>
+        <!-- SNS -->
+        <mxCell id="sns" value="SNS&#xa;アラート通知" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#F13C39;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sns;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="470" width="78" height="78" as="geometry"/>
         </mxCell>
         
-        <!-- Monitoring and Analytics -->
-        <mxCell id="cloudwatch" value="📊 CloudWatch&#xa;Quantum Dashboard&#xa;3D Visualization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="760" width="130" height="60" as="geometry"/>
-        </mxCell>
-        
-        <mxCell id="xray" value="🔍 X-Ray&#xa;Quantum Tracing&#xa;Service Map" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="760" width="120" height="60" as="geometry"/>
-        </mxCell>
-        
-        <mxCell id="kinesis" value="🌊 Kinesis&#xa;Real-time Analytics&#xa;Streaming Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="760" width="120" height="60" as="geometry"/>
-        </mxCell>
-        
-        <!-- Quantum Flow Arrows -->
-        <!-- User Request Flow -->
-        <mxCell id="flow1" value="🌊 User Request" style="endArrow=classic;html=1;strokeColor=#06d6a0;strokeWidth=4;curved=1;fontSize=12;fontColor=#06d6a0;fontStyle=1;" edge="1" parent="1" source="cloudfront" target="api-gateway">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="195" as="sourcePoint"/>
-            <mxPoint x="300" y="195" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        
-        <mxCell id="flow2" value="🎯 Probabilistic Routing" style="endArrow=classic;html=1;strokeColor=#ffd60a;strokeWidth=4;curved=1;fontSize=12;fontColor=#ffd60a;fontStyle=1;" edge="1" parent="1" source="api-gateway" target="router-lambda">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="195" as="sourcePoint"/>
-            <mxPoint x="520" y="195" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        
-        <!-- Quantum Superposition Flow -->
-        <mxCell id="flow3" value="🌀 Quantum Superposition" style="endArrow=classic;html=1;strokeColor=#4ecdc4;strokeWidth=5;curved=1;fontSize=12;fontColor=#4ecdc4;fontStyle=1;" edge="1" parent="1" source="router-lambda" target="step-functions">
-          <mxGeometry x="-0.2" y="20" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="220" as="sourcePoint"/>
-            <mxPoint x="200" y="320" as="targetPoint"/>
-            <mxPoint as="offset"/>
-          </mxGeometry>
-        </mxCell>
-        
-        <!-- Parallel Execution Flows -->
-        <mxCell id="flow4" value="" style="endArrow=classic;html=1;strokeColor=#45b7d1;strokeWidth=3;curved=1;" edge="1" parent="1" source="step-functions" target="lambda1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="350" as="sourcePoint"/>
-            <mxPoint x="350" y="370" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        
-        <mxCell id="flow5" value="" style="endArrow=classic;html=1;strokeColor=#45b7d1;strokeWidth=3;curved=1;" edge="1" parent="1" source="step-functions" target="lambda2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="350" as="sourcePoint"/>
-            <mxPoint x="460" y="370" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        
-        <mxCell id="flow6" value="" style="endArrow=classic;html=1;strokeColor=#45b7d1;strokeWidth=3;curved=1;" edge="1" parent="1" source="step-functions" target="lambda3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="350" as="sourcePoint"/>
-            <mxPoint x="570" y="370" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        
-        <!-- Hedged Request Flow -->
-        <mxCell id="flow7" value="🎲 Hedged Request" style="endArrow=classic;html=1;strokeColor=#ff9800;strokeWidth=3;curved=1;fontSize=11;fontColor=#ff9800;fontStyle=1;" edge="1" parent="1" source="step-functions" target="lambda4">
+        <!-- Flow Arrows - Standard Orthogonal -->
+        <!-- Internet to CloudFront -->
+        <mxCell id="flow1" value="HTTPS&#xa;リクエスト" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=10;fontColor=#232F3E;" edge="1" parent="1" source="internet" target="cloudfront">
           <mxGeometry x="0.1" y="10" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="380" as="sourcePoint"/>
-            <mxPoint x="405" y="430" as="targetPoint"/>
+            <mxPoint x="130" y="170" as="sourcePoint"/>
+            <mxPoint x="300" y="270" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         
-        <!-- Entanglement Flows -->
-        <mxCell id="flow8" value="⚛️ Quantum Entanglement" style="endArrow=classic;html=1;strokeColor=#9c27b0;strokeWidth=4;curved=1;fontSize=12;fontColor=#9c27b0;fontStyle=1;" edge="1" parent="1" source="lambda2" target="event-bridge">
-          <mxGeometry x="-0.2" y="30" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="400" as="sourcePoint"/>
-            <mxPoint x="180" y="570" as="targetPoint"/>
+        <!-- CloudFront to API Gateway -->
+        <mxCell id="flow2" value="配信" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=10;fontColor=#232F3E;" edge="1" parent="1" source="cloudfront" target="api-gateway">
+          <mxGeometry x="0.1" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint"/>
+            <mxPoint x="490" y="270" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         
-        <!-- Data Access Flows -->
-        <mxCell id="flow9" value="📊 Data Access" style="endArrow=classic;html=1;strokeColor=#66bb6a;strokeWidth=3;curved=1;fontSize=11;fontColor=#66bb6a;fontStyle=1;" edge="1" parent="1" source="lambda1" target="products-db">
-          <mxGeometry x="-0.3" y="20" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="400" as="sourcePoint"/>
-            <mxPoint x="160" y="760" as="targetPoint"/>
+        <!-- API Gateway to Step Functions -->
+        <mxCell id="flow3" value="量子重ね合わせ" style="endArrow=classic;html=1;strokeColor=#FF9900;strokeWidth=3;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=10;fontColor=#FF9900;fontStyle=1;" edge="1" parent="1" source="api-gateway" target="step-functions">
+          <mxGeometry x="0.1" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="270" as="sourcePoint"/>
+            <mxPoint x="820" y="270" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         
-        <!-- Measurement Flow -->
-        <mxCell id="flow10" value="📏 Quantum Measurement" style="endArrow=classic;html=1;strokeColor=#e91e63;strokeWidth=4;curved=1;fontSize=12;fontColor=#e91e63;fontStyle=1;" edge="1" parent="1" source="coordinator" target="cloudwatch">
-          <mxGeometry x="-0.1" y="20" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="460" as="sourcePoint"/>
-            <mxPoint x="635" y="760" as="targetPoint"/>
+        <!-- WAF Protection -->
+        <mxCell id="flow-waf" value="セキュリティ" style="endArrow=classic;html=1;strokeColor=#FF6B6B;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=10;fontColor=#FF6B6B;" edge="1" parent="1" source="api-gateway" target="waf">
+          <mxGeometry x="0.1" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="270" as="sourcePoint"/>
+            <mxPoint x="640" y="270" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         
-        <!-- Results Flow -->
-        <mxCell id="flow11" value="" style="endArrow=classic;html=1;strokeColor=#8b5cf6;strokeWidth=2;curved=1;" edge="1" parent="1" source="lambda3" target="results-db">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="650" y="380" as="sourcePoint"/>
-            <mxPoint x="750" y="380" as="targetPoint"/>
+        <!-- Step Functions to Lambda Functions -->
+        <mxCell id="flow4" value="並列実行" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=9;fontColor=#232F3E;" edge="1" parent="1" source="step-functions" target="lambda-collab">
+          <mxGeometry x="0.1" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="310" as="sourcePoint"/>
+            <mxPoint x="860" y="350" as="targetPoint"/>
+            <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         
-        <!-- Quantum Principles Annotations -->
-        <mxCell id="principle1" value="🌀 Uncertainty Principle&#xa;&#xa;Probabilistic routing based on&#xa;real-time performance metrics.&#xa;Routes adapt to quantum&#xa;fluctuations in system load." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#ff8f00;fontSize=11;fontStyle=2;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="140" width="220" height="90" as="geometry"/>
+        <mxCell id="flow5" value="並列実行" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=9;fontColor=#232F3E;" edge="1" parent="1" source="step-functions" target="lambda-content">
+          <mxGeometry x="0.1" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="310" as="sourcePoint"/>
+            <mxPoint x="980" y="350" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
         </mxCell>
         
-        <mxCell id="principle2" value="⚛️ Superposition&#xa;&#xa;Multiple execution paths exist&#xa;simultaneously until measurement&#xa;collapses to optimal result.&#xa;Quantum parallelism maximizes&#xa;performance potential." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#4caf50;fontSize=11;fontStyle=2;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="280" width="220" height="110" as="geometry"/>
+        <mxCell id="flow6" value="並列実行" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=9;fontColor=#232F3E;" edge="1" parent="1" source="step-functions" target="lambda-ml">
+          <mxGeometry x="0.1" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="310" as="sourcePoint"/>
+            <mxPoint x="1100" y="350" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
         </mxCell>
         
-        <mxCell id="principle3" value="🔗 Entanglement&#xa;&#xa;Correlated events maintain&#xa;instantaneous relationship&#xa;across distributed system.&#xa;Non-local state synchronization&#xa;ensures consistency." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9c27b0;fontSize=11;fontStyle=2;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="540" width="220" height="110" as="geometry"/>
+        <!-- Lambda to EventBridge -->
+        <mxCell id="flow7" value="量子もつれ" style="endArrow=classic;html=1;strokeColor=#F13C39;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=10;fontColor=#F13C39;fontStyle=1;" edge="1" parent="1" source="lambda-content" target="eventbridge">
+          <mxGeometry x="-0.2" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="430" as="sourcePoint"/>
+            <mxPoint x="340" y="470" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
         </mxCell>
         
-        <mxCell id="principle4" value="📏 Observer Effect&#xa;&#xa;System behavior changes when&#xa;monitored, enabling adaptive&#xa;optimization. Measurement&#xa;collapses superposition to&#xa;deterministic outcomes." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;fontSize=11;fontStyle=2;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="720" width="220" height="110" as="geometry"/>
+        <!-- EventBridge to Lambda Processor -->
+        <mxCell id="flow8" value="状態同期" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=10;fontColor=#232F3E;" edge="1" parent="1" source="eventbridge" target="lambda-processor">
+          <mxGeometry x="0.1" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="510" as="sourcePoint"/>
+            <mxPoint x="490" y="510" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Lambda Functions to DynamoDB -->
+        <mxCell id="flow9" value="商品データ&#xa;読み込み" style="endArrow=classic;html=1;strokeColor=#3F48CC;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=9;fontColor=#3F48CC;" edge="1" parent="1" source="lambda-collab" target="dynamodb-products">
+          <mxGeometry x="0.1" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="430" as="sourcePoint"/>
+            <mxPoint x="340" y="610" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="flow10" value="設定データ&#xa;読み込み" style="endArrow=classic;html=1;strokeColor=#3F48CC;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=9;fontColor=#3F48CC;" edge="1" parent="1" source="lambda-content" target="dynamodb-users">
+          <mxGeometry x="0.1" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="430" as="sourcePoint"/>
+            <mxPoint x="530" y="610" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="flow11" value="結果保存" style="endArrow=classic;html=1;strokeColor=#3F48CC;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=9;fontColor=#3F48CC;" edge="1" parent="1" source="lambda-ml" target="dynamodb-recommendations">
+          <mxGeometry x="0.1" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="430" as="sourcePoint"/>
+            <mxPoint x="720" y="610" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Lambda Processor to Correlations -->
+        <mxCell id="flow12" value="相関データ&#xa;保存" style="endArrow=classic;html=1;strokeColor=#3F48CC;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=9;fontColor=#3F48CC;" edge="1" parent="1" source="lambda-processor" target="dynamodb-correlations">
+          <mxGeometry x="0.1" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="550" as="sourcePoint"/>
+            <mxPoint x="910" y="610" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Monitoring Flows -->
+        <mxCell id="flow13" value="量子測定&#xa;パフォーマンス解析" style="endArrow=classic;html=1;strokeColor=#759C3E;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=10;fontColor=#759C3E;fontStyle=1;" edge="1" parent="1" source="lambda-coordinator" target="cloudwatch">
+          <mxGeometry x="0.1" y="15" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="550" as="sourcePoint"/>
+            <mxPoint x="1100" y="610" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Step Functions to Hedged Lambda -->
+        <mxCell id="flow14" value="Hedged&#xa;リクエスト" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=9;fontColor=#232F3E;" edge="1" parent="1" source="step-functions" target="lambda-hedged">
+          <mxGeometry x="0.1" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="310" as="sourcePoint"/>
+            <mxPoint x="920" y="470" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- X-Ray from multiple sources -->
+        <mxCell id="flow15" value="分散トレース&#xa;収集" style="endArrow=classic;html=1;strokeColor=#759C3E;strokeWidth=1;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=9;fontColor=#759C3E;" edge="1" parent="1" source="api-gateway" target="xray">
+          <mxGeometry x="0.1" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="310" as="sourcePoint"/>
+            <mxPoint x="1240" y="650" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- SNS Alert -->
+        <mxCell id="flow16" value="アラート&#xa;通知" style="endArrow=classic;html=1;strokeColor=#F13C39;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=9;fontColor=#F13C39;" edge="1" parent="1" source="cloudwatch" target="sns">
+          <mxGeometry x="0.1" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="650" as="sourcePoint"/>
+            <mxPoint x="1240" y="510" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Quantum Algorithms Info Box -->
+        <mxCell id="quantum-algorithms" value="量子インスパイア アルゴリズム&#xa;&#xa;• Multi-Armed Bandit (Thompson Sampling)&#xa;  - 動的パフォーマンス最適化&#xa;• Hedged Requests パターン&#xa;  - テールレイテンシ削減&#xa;• 投機的実行 (Speculative Execution)&#xa;  - 予測的リソース配置&#xa;• 量子重ね合わせ (並列実行)&#xa;  - 複数アルゴリズムの同時実行&#xa;• イベントもつれ (状態相関)&#xa;  - 分散システム一貫性保証&#xa;• 適応ルーティング&#xa;  - リアルタイム最適化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#4CAF50;fontSize=11;fontStyle=0;fontColor=#2E7D32;align=left;verticalAlign=top;spacingTop=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="130" width="260" height="200" as="geometry"/>
         </mxCell>
         
         <!-- Performance Metrics -->
-        <mxCell id="metrics" value="🎯 Quantum Performance Targets&#xa;&#xa;🚀 P99 Latency: 300ms → 100ms&#xa;⚡ Availability: 99.9% → 99.99%&#xa;💰 Cost Reduction: 30%&#xa;🎲 Error Rate: less than 0.01%&#xa;🌀 Quantum Efficiency: 95%&#xa;🔄 Throughput: 10,000 RPS&#xa;🎯 Success Rate: 99.99%" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#2e7d32;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="420" width="220" height="100" as="geometry"/>
+        <mxCell id="performance-metrics" value="パフォーマンス目標値&#xa;&#xa;• P99レイテンシ: 300ms → 100ms&#xa;  - 量子重ね合わせによる高速化&#xa;• 可用性: 99.9% → 99.99%&#xa;  - 自己修復機能で向上&#xa;• コスト削減: 30%&#xa;  - 適応的リソース管理&#xa;• エラー率: 0.01%未満&#xa;  - Hedgedリクエストで安定化&#xa;• 量子効率: 95%&#xa;  - 最適パス選択による効率化&#xa;• スループット: 10,000 RPS&#xa;  - 並列処理による高性能" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF8F00;fontSize=11;fontStyle=0;fontColor=#E65100;align=left;verticalAlign=top;spacingTop=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="350" width="260" height="180" as="geometry"/>
         </mxCell>
         
-        <!-- Technology Stack -->
-        <mxCell id="tech-stack" value="🛠️ Technology Stack&#xa;&#xa;• AWS CDK (Infrastructure as Code)&#xa;• Step Functions (Orchestration)&#xa;• Lambda (Compute)&#xa;• API Gateway (Edge)&#xa;• EventBridge (Event Bus)&#xa;• DynamoDB (NoSQL Database)&#xa;• CloudWatch (Monitoring)&#xa;• X-Ray (Distributed Tracing)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ef6c00;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="860" width="220" height="140" as="geometry"/>
+        <!-- Technology Benefits -->
+        <mxCell id="tech-benefits" value="主要技術的メリット&#xa;&#xa;• 自己最適化パフォーマンス&#xa;  - MLによる継続的改善&#xa;• 耐障害性設計&#xa;  - 冗長性とフェイルオーバー&#xa;• リアルタイム適応&#xa;  - 動的負荷分散&#xa;• コスト効率的オートスケール&#xa;  - 従量課金モデル活用&#xa;• ゼロダウンタイムデプロイ&#xa;  - ブルーグリーンデプロイ&#xa;• 予測的負荷分散&#xa;  - AI駆動リソース配置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#2196F3;fontSize=11;fontStyle=0;fontColor=#1565C0;align=left;verticalAlign=top;spacingTop=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="560" width="260" height="170" as="geometry"/>
+        </mxCell>
+        
+        <!-- Legend -->
+        <mxCell id="legend-bg" value="凡例 (Legend)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=#5A6C7D;fontSize=12;fontStyle=1;fontColor=#232F3E;align=left;verticalAlign=top;spacingTop=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="950" width="280" height="220" as="geometry"/>
+        </mxCell>
+        
+        <!-- Legend Icons -->
+        <mxCell id="legend-compute" value="Lambda Function&#xa;サーバーレス処理" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#FF9900;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=right;html=1;fontSize=10;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;labelPosition=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="980" width="30" height="30" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-database" value="DynamoDB&#xa;NoSQLデータベース" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F48CC;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=right;html=1;fontSize=10;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.dynamodb;labelPosition=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1020" width="30" height="30" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-networking" value="CloudFront&#xa;CDN配信" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=right;html=1;fontSize=10;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cloudfront;labelPosition=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1060" width="30" height="30" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-integration" value="EventBridge&#xa;イベント統合" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#F13C39;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=right;html=1;fontSize=10;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.eventbridge;labelPosition=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1100" width="30" height="30" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-monitoring" value="CloudWatch&#xa;監視・分析" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#759C3E;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=right;html=1;fontSize=10;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cloudwatch_2;labelPosition=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1140" width="30" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- Data Flow Legend -->
+        <mxCell id="legend-flows" value="データフロー" style="text;fontSize=10;fontStyle=1;fontColor=#232F3E;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="980" width="80" height="15" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-flow1" value="" style="endArrow=classic;html=1;strokeColor=#FF9900;strokeWidth=3;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="15" relative="1" as="geometry">
+            <mxPoint x="200" y="1000" as="sourcePoint"/>
+            <mxPoint x="250" y="1000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-flow1-label" value="重要フロー" style="text;fontSize=9;fontColor=#232F3E;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="995" width="60" height="10" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-flow2" value="" style="endArrow=classic;html=1;strokeColor=#232F3E;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="15" relative="1" as="geometry">
+            <mxPoint x="200" y="1020" as="sourcePoint"/>
+            <mxPoint x="250" y="1020" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-flow2-label" value="標準フロー" style="text;fontSize=9;fontColor=#232F3E;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1015" width="60" height="10" as="geometry"/>
+        </mxCell>
+        
+        <!-- Security Considerations -->
+        <mxCell id="security-considerations" value="セキュリティ考慮事項&#xa;&#xa;• WAF: SQL Injection, XSS対策&#xa;• IAM: 最小権限の原則&#xa;• VPC: プライベートネットワーク&#xa;• Security Group: ファイアウォール&#xa;• Lambda: 実行環境分離&#xa;• DynamoDB: 保存時暗号化&#xa;• API Gateway: レート制限&#xa;• CloudTrail: 監査ログ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#F44336;fontSize=11;fontStyle=0;fontColor=#C62828;align=left;verticalAlign=top;spacingTop=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="370" y="950" width="280" height="160" as="geometry"/>
+        </mxCell>
+        
+        <!-- Operational Notes -->
+        <mxCell id="operational-notes" value="運用ポイント&#xa;&#xa;• Auto Scaling: 需要に応じた自動拡張&#xa;• Blue/Green Deploy: 無停止デプロイ&#xa;• Circuit Breaker: 障害の連鎖防止&#xa;• Health Check: ヘルスチェック監視&#xa;• Cost Optimization: リソース最適化&#xa;• Backup Strategy: 自動バックアップ&#xa;• DR Planning: 災害復旧計画&#xa;• Performance Tuning: 継続的最適化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#4CAF50;fontSize=11;fontStyle=0;fontColor=#2E7D32;align=left;verticalAlign=top;spacingTop=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="680" y="950" width="280" height="160" as="geometry"/>
+        </mxCell>
+        
+        <!-- Architecture Metadata -->
+        <mxCell id="metadata" value="アーキテクチャ情報&#xa;作成日: 2024年1月&#xa;バージョン: v1.0&#xa;想定負荷: 10,000 RPS&#xa;想定ユーザー: 100万人&#xa;データ容量: 10TB&#xa;リージョン: ap-northeast-1&#xa;コスト想定: $5,000/月" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#FFA000;fontSize=10;fontStyle=0;fontColor=#F57C00;align=left;verticalAlign=top;spacingTop=5;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="750" width="260" height="120" as="geometry"/>
         </mxCell>
         
       </root>

@@ -1,0 +1,291 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T12:00:00.000Z" agent="Claude Code" version="24.7.14" etag="quantum-arch-v1" type="device">
+  <diagram name="Quantum Architecture" id="quantum-arch">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- Background -->
+        <mxCell id="background" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0a0a23;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry width="1600" height="1200" as="geometry"/>
+        </mxCell>
+        
+        <!-- Title -->
+        <mxCell id="title" value="🌌 Quantum-Inspired Serverless Architecture" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fillColor=#1a1a2e;strokeColor=#4a5568;rounded=1;shadow=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="700" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Subtitle -->
+        <mxCell id="subtitle" value="Leveraging Quantum Physics Principles for Distributed Systems Optimization" style="text;fontSize=14;fontStyle=2;fontColor=#a0aec0;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="85" width="600" height="25" as="geometry"/>
+        </mxCell>
+        
+        <!-- Layer 1: Edge Layer -->
+        <mxCell id="edge-layer-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f3460;strokeColor=#16213e;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="1100" height="100" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="edge-layer-title" value="🚪 Edge Layer - Quantum Gates" style="text;fontSize=18;fontStyle=1;fontColor=#ffffff;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="300" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- CloudFront -->
+        <mxCell id="cloudfront" value="☁️ CloudFront&#xa;Global Edge Distribution&#xa;Quantum State Preparation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="170" width="140" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- API Gateway -->
+        <mxCell id="api-gateway" value="🚪 API Gateway&#xa;Quantum Gate Router&#xa;Probabilistic Distribution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="170" width="160" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- Router Lambda -->
+        <mxCell id="router-lambda" value="🎯 Router Lambda&#xa;Multi-Armed Bandit&#xa;Thompson Sampling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="170" width="160" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- Metrics Collector -->
+        <mxCell id="metrics-collector" value="📊 Metrics Collector&#xa;Real-time Performance&#xa;Adaptive Weighting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="170" width="160" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- Layer 2: Superposition Layer -->
+        <mxCell id="superposition-layer-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#16537e;strokeColor=#1c6ea4;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="1100" height="220" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="superposition-layer-title" value="⚛️ Superposition Layer - Parallel Execution Engine" style="text;fontSize=18;fontStyle=1;fontColor=#ffffff;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="400" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- Step Functions -->
+        <mxCell id="step-functions" value="🔀 Step Functions&#xa;Superposition Engine&#xa;Quantum Workflow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Coordinator -->
+        <mxCell id="coordinator" value="🎼 Coordinator&#xa;Quantum Measurement&#xa;Result Collapse" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Hexagonal Lambda Cluster Background -->
+        <mxCell id="lambda-cluster-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e3a8a;strokeColor=#3b82f6;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="300" y="310" width="600" height="160" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="lambda-cluster-title" value="🔷 Hexagonal Lambda Constellation" style="text;fontSize=14;fontStyle=1;fontColor=#ffffff;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="250" height="25" as="geometry"/>
+        </mxCell>
+        
+        <!-- Lambda Functions in Hexagonal Layout -->
+        <mxCell id="lambda1" value="🟡&#xa;Collaborative&#xa;Filtering" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="350" width="80" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="lambda2" value="🟢&#xa;Content-Based&#xa;Filtering" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="80" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="lambda3" value="🔵&#xa;Hybrid ML&#xa;Algorithm" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="350" width="80" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="lambda4" value="🟠&#xa;Hedged Request&#xa;Backup" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#fed7aa;strokeColor=#ea580c;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="410" width="80" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="lambda5" value="🟣&#xa;Speculative&#xa;Execution" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#e9d5ff;strokeColor=#7c3aed;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="410" width="80" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- DynamoDB Results -->
+        <mxCell id="results-db" value="🗃️ DynamoDB&#xa;Superposition Results&#xa;Race Conditions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="360" width="130" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Layer 3: Entanglement Layer -->
+        <mxCell id="entanglement-layer-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4a148c;strokeColor=#7b1fa2;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="50" y="530" width="1100" height="140" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="entanglement-layer-title" value="🔗 Entanglement Layer - Event Correlation System" style="text;fontSize=18;fontStyle=1;fontColor=#ffffff;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="540" width="450" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- EventBridge -->
+        <mxCell id="event-bridge" value="🌐 EventBridge&#xa;Quantum Entanglement Bus&#xa;Non-local Correlations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="570" width="160" height="70" as="geometry"/>
+        </mxCell>
+        
+        <!-- Correlation Database -->
+        <mxCell id="correlation-db" value="🗃️ DynamoDB&#xa;Correlation State&#xa;Entanglement History" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="570" width="160" height="70" as="geometry"/>
+        </mxCell>
+        
+        <!-- Entanglement Processor -->
+        <mxCell id="entanglement-processor" value="⚛️ Entanglement&#xa;Processor Lambda&#xa;State Synchronization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="570" width="160" height="70" as="geometry"/>
+        </mxCell>
+        
+        <!-- Chaos Engineering -->
+        <mxCell id="chaos-engineering" value="🌪️ Chaos Engineering&#xa;Quantum Uncertainty&#xa;Resilience Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fecaca;strokeColor=#dc2626;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="570" width="160" height="70" as="geometry"/>
+        </mxCell>
+        
+        <!-- Layer 4: Measurement Layer -->
+        <mxCell id="measurement-layer-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1b5e20;strokeColor=#2e7d32;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="50" y="710" width="1100" height="160" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="measurement-layer-title" value="📏 Measurement Layer - Data Storage and Analytics" style="text;fontSize=18;fontStyle=1;fontColor=#ffffff;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="720" width="450" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- Data Storage -->
+        <mxCell id="products-db" value="📦 Products&#xa;Database&#xa;Product Catalog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="760" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="user-preferences-db" value="👤 User Preferences&#xa;Database&#xa;Behavioral Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="760" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="recommendations-db" value="🎯 Recommendations&#xa;Database&#xa;ML Inference Results" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="760" width="130" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Monitoring and Analytics -->
+        <mxCell id="cloudwatch" value="📊 CloudWatch&#xa;Quantum Dashboard&#xa;3D Visualization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="760" width="130" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="xray" value="🔍 X-Ray&#xa;Quantum Tracing&#xa;Service Map" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="760" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="kinesis" value="🌊 Kinesis&#xa;Real-time Analytics&#xa;Streaming Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="760" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Quantum Flow Arrows -->
+        <!-- User Request Flow -->
+        <mxCell id="flow1" value="🌊 User Request" style="endArrow=classic;html=1;strokeColor=#06d6a0;strokeWidth=4;curved=1;fontSize=12;fontColor=#06d6a0;fontStyle=1;" edge="1" parent="1" source="cloudfront" target="api-gateway">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="195" as="sourcePoint"/>
+            <mxPoint x="300" y="195" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="flow2" value="🎯 Probabilistic Routing" style="endArrow=classic;html=1;strokeColor=#ffd60a;strokeWidth=4;curved=1;fontSize=12;fontColor=#ffd60a;fontStyle=1;" edge="1" parent="1" source="api-gateway" target="router-lambda">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="195" as="sourcePoint"/>
+            <mxPoint x="520" y="195" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Quantum Superposition Flow -->
+        <mxCell id="flow3" value="🌀 Quantum Superposition" style="endArrow=classic;html=1;strokeColor=#4ecdc4;strokeWidth=5;curved=1;fontSize=12;fontColor=#4ecdc4;fontStyle=1;" edge="1" parent="1" source="router-lambda" target="step-functions">
+          <mxGeometry x="-0.2" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="220" as="sourcePoint"/>
+            <mxPoint x="200" y="320" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Parallel Execution Flows -->
+        <mxCell id="flow4" value="" style="endArrow=classic;html=1;strokeColor=#45b7d1;strokeWidth=3;curved=1;" edge="1" parent="1" source="step-functions" target="lambda1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="350" as="sourcePoint"/>
+            <mxPoint x="350" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="flow5" value="" style="endArrow=classic;html=1;strokeColor=#45b7d1;strokeWidth=3;curved=1;" edge="1" parent="1" source="step-functions" target="lambda2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="350" as="sourcePoint"/>
+            <mxPoint x="460" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="flow6" value="" style="endArrow=classic;html=1;strokeColor=#45b7d1;strokeWidth=3;curved=1;" edge="1" parent="1" source="step-functions" target="lambda3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="350" as="sourcePoint"/>
+            <mxPoint x="570" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Hedged Request Flow -->
+        <mxCell id="flow7" value="🎲 Hedged Request" style="endArrow=classic;html=1;strokeColor=#ff9800;strokeWidth=3;curved=1;fontSize=11;fontColor=#ff9800;fontStyle=1;" edge="1" parent="1" source="step-functions" target="lambda4">
+          <mxGeometry x="0.1" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="380" as="sourcePoint"/>
+            <mxPoint x="405" y="430" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Entanglement Flows -->
+        <mxCell id="flow8" value="⚛️ Quantum Entanglement" style="endArrow=classic;html=1;strokeColor=#9c27b0;strokeWidth=4;curved=1;fontSize=12;fontColor=#9c27b0;fontStyle=1;" edge="1" parent="1" source="lambda2" target="event-bridge">
+          <mxGeometry x="-0.2" y="30" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint"/>
+            <mxPoint x="180" y="570" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Data Access Flows -->
+        <mxCell id="flow9" value="📊 Data Access" style="endArrow=classic;html=1;strokeColor=#66bb6a;strokeWidth=3;curved=1;fontSize=11;fontColor=#66bb6a;fontStyle=1;" edge="1" parent="1" source="lambda1" target="products-db">
+          <mxGeometry x="-0.3" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="400" as="sourcePoint"/>
+            <mxPoint x="160" y="760" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Measurement Flow -->
+        <mxCell id="flow10" value="📏 Quantum Measurement" style="endArrow=classic;html=1;strokeColor=#e91e63;strokeWidth=4;curved=1;fontSize=12;fontColor=#e91e63;fontStyle=1;" edge="1" parent="1" source="coordinator" target="cloudwatch">
+          <mxGeometry x="-0.1" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="460" as="sourcePoint"/>
+            <mxPoint x="635" y="760" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Results Flow -->
+        <mxCell id="flow11" value="" style="endArrow=classic;html=1;strokeColor=#8b5cf6;strokeWidth=2;curved=1;" edge="1" parent="1" source="lambda3" target="results-db">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="380" as="sourcePoint"/>
+            <mxPoint x="750" y="380" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Quantum Principles Annotations -->
+        <mxCell id="principle1" value="🌀 Uncertainty Principle&#xa;&#xa;Probabilistic routing based on&#xa;real-time performance metrics.&#xa;Routes adapt to quantum&#xa;fluctuations in system load." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#ff8f00;fontSize=11;fontStyle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="140" width="220" height="90" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="principle2" value="⚛️ Superposition&#xa;&#xa;Multiple execution paths exist&#xa;simultaneously until measurement&#xa;collapses to optimal result.&#xa;Quantum parallelism maximizes&#xa;performance potential." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#4caf50;fontSize=11;fontStyle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="280" width="220" height="110" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="principle3" value="🔗 Entanglement&#xa;&#xa;Correlated events maintain&#xa;instantaneous relationship&#xa;across distributed system.&#xa;Non-local state synchronization&#xa;ensures consistency." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9c27b0;fontSize=11;fontStyle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="540" width="220" height="110" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="principle4" value="📏 Observer Effect&#xa;&#xa;System behavior changes when&#xa;monitored, enabling adaptive&#xa;optimization. Measurement&#xa;collapses superposition to&#xa;deterministic outcomes." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;fontSize=11;fontStyle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="720" width="220" height="110" as="geometry"/>
+        </mxCell>
+        
+        <!-- Performance Metrics -->
+        <mxCell id="metrics" value="🎯 Quantum Performance Targets&#xa;&#xa;🚀 P99 Latency: 300ms → 100ms&#xa;⚡ Availability: 99.9% → 99.99%&#xa;💰 Cost Reduction: 30%&#xa;🎲 Error Rate: less than 0.01%&#xa;🌀 Quantum Efficiency: 95%&#xa;🔄 Throughput: 10,000 RPS&#xa;🎯 Success Rate: 99.99%" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#2e7d32;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="420" width="220" height="100" as="geometry"/>
+        </mxCell>
+        
+        <!-- Technology Stack -->
+        <mxCell id="tech-stack" value="🛠️ Technology Stack&#xa;&#xa;• AWS CDK (Infrastructure as Code)&#xa;• Step Functions (Orchestration)&#xa;• Lambda (Compute)&#xa;• API Gateway (Edge)&#xa;• EventBridge (Event Bus)&#xa;• DynamoDB (NoSQL Database)&#xa;• CloudWatch (Monitoring)&#xa;• X-Ray (Distributed Tracing)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ef6c00;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="860" width="220" height="140" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
